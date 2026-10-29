@@ -56,3 +56,7 @@
 | `transcribe_words.py` · `read_lecture_edit.py` · `cut_*` · `pause_compress.py` | S6(롱폼 → 쇼츠)를 맡게 되면: 단어 시각 · prproj 전수 읽기 · 무음 컷 |
 
 **영상제작 `D:\영상제작\도구\`** (분양 세로 장면 도구 — 템플릿 승격 후보의 원본, `drawers.md` 4장 A): `광고편집/b4_*.py` · `ae_double/comm/school/money/stamp.py` · `rf3_render.py`·`rf3_pages.py` · `sg_*.py`(자막 단어 시각 정렬·XML 다시 조립 대조) · `v5_render.py`(프리미어 없이 파이썬 프레임 합성) · `rs_render.py` · `ns_render.py` · `소리/pa_voice.py`(Windows 내장 음성 역 스피커 가공) · `소리/seq1_align.py`(STT 없이 대본 정렬) · `읽기/gfx_text.py`(프리미어 텍스트 그래픽 글자 해독) · `레퍼런스분석/mg_study.py`.
+| `anim2d.py` | S7 2D 재현 설명 쇼츠 조립 — 계획 JSON(레이어·카메라·흐르는 물건·설명 글·자막) → mp4+SRT, 화면 멈춤 WARN. 설계 `references/s7-2d-explainer.md` |
+| `layer_cut.py` | Codex 레이어 그림 → `*_cut.png`(투명 그림 빛 번짐 테두리 제거 · 흰 바탕 지움) |
+| `s7_prep.py` + `remotion2d/` | S7 2D 재현 설명 쇼츠 — 원본 초 계획 JSON → 말 조각(문장 끝 검사·최저 음량 자르기)·목소리·Remotion props → `npx remotion render`. `--still 초,…` 정지 화면 |
+| `s7_sfx.py` | S7 효과음 — 계획 "sfx"(샷 번호 + 박자 이름)를 출력 시각으로 바꿔 `sfx_overlay` 로 섞음(효과음 없는 판 `_tmp/s7/`) |

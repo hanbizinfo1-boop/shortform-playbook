@@ -22,6 +22,8 @@ INCLUDE = [
     "CLAUDE.md", "이어하기.ps1", ".gitattributes",
     ".claude/settings.json", ".claude/skills/shortform/**",
     "tools/*.py", "tools/README.md", "tools/scenes/*.py", "tools/ae/*.jsx",
+    "tools/remotion2d/src/*", "tools/remotion2d/package.json", "tools/remotion2d/package-lock.json",
+    "tools/remotion2d/tsconfig.json", "tools/remotion2d/.gitignore",
     "templates/**",
     "소재/fonts/*.otf", "소재/ai/**/*.png",
     "기록/빡이사DB_계획/*.json", "기록/빡이사DB_쇼츠편성_1013.md", "기록/조사_*.md", "기록/레퍼해부/**",
