@@ -1,0 +1,8 @@
+# 줄바꿈 LF 고정(이 PC git 은 core.autocrlf=true)
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.png binary
+*.jpg binary
+*.mp4 binary
+*.wav binary
+*.mp3 binary
